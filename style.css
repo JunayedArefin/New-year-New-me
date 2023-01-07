@@ -1,0 +1,212 @@
+*{
+   margin: 0;
+}
+.hero{
+   height: 610px;
+   background-image: url('/sources/banner/banner1.svg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.herodetails{
+   padding-top: 150px;
+   padding-left: 55%;
+   text-align: right;
+   width: 400px;
+}
+
+h1{
+
+   font-family: 'Work Sans';
+   width: fit-content;
+   font-size: 50px;
+   font-weight: 700px
+   ;
+}
+
+.herodetails p{
+
+   font-family: 'Work Sans';
+   font-size: 16px;
+   font-weight: 400px;
+   margin-top: 25px
+   ;
+}
+
+.button{
+   margin-top: 25px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: tomato;
+}
+
+.failuresdetails h2{
+
+   font-family: 'Work Sans';
+   width: fit-content;
+   font-size: 35px;
+   font-weight: 600px;
+   margin-bottom: 20px;
+}
+
+.failures{
+   display: flex;
+   align-items: center;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.failures img{
+   height: 590px;
+}
+.failuresdetails{
+   margin-left: 70px;
+   width: 370px;
+}
+ul {
+   list-style: none;
+   margin-top: 20px;
+   padding-left: 0;
+ }
+ 
+ ul li:before {
+   content: '✓   ';
+   color: rgb(52, 225, 0);
+   font-weight: 600;
+ }
+
+ ul li{
+   margin-bottom: 10px;
+ }
+
+ .plan{
+   text-align: center;
+   height: 350px;
+   padding-left: 20%;
+   padding-right: 20%;
+ }
+ .plan h2{
+   text-align: center;
+   font-family: 'Work Sans';
+   font-size: 35px;
+   font-weight: 600px;
+   margin-bottom: 40px;
+ }
+ .planflex{
+   display: flex;
+ }
+ .skill img{
+   height: 70px;
+ }
+
+ h3{
+   text-align: center;
+   font-family: 'Work Sans';
+   font-size: 20px;
+   font-weight: 500px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+ }
+ h4{
+   text-align: center;
+   font-family: 'Work Sans';
+   font-size: 15px;
+   font-weight: 400px;
+   margin-bottom: 20px;
+   color: slategrey;
+ }
+
+ .footersec{
+   display: flex;
+   padding-top: 90px;
+   padding-left: 15%;
+   padding-right: 15%;
+   height: 390px;
+   background-color: black;
+ }
+ .footersec h2{
+   font-size: 35px;
+   text-align: left;
+   font-family: 'Work Sans';
+   color: white;
+ }
+ .footersec p{
+   font-family: 'Work Sans';
+   color: white;
+   padding-top: 20px;
+ }
+ .footersec img{
+   height: 35px;
+   padding-top: 20px;
+   padding-right: 15px;
+ }
+ .footersec h3{
+   font-size: 20px;
+   text-align: left;
+   font-family: 'Work Sans';
+   color: white;
+   margin-bottom: 25px;
+ }
+ .footersec h4{
+   text-align: left;
+   font-size: 12px;
+   font-family: 'Work Sans';
+   color: white;
+ }
+ .footerdetails{
+   width: 300px;
+   margin-right: 250px;
+ }
+ .subscribe{
+   width: 300px;
+ }
+
+ .button2{
+   margin-top: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(255, 255, 255);
+ }
+
+ .input{
+   border: 10px;
+   border-color: rgb(255, 255, 255);
+   background-color: rgb(41, 41, 41);
+   height: 35px;
+   width: 80%;
+   text-align: left;
+   margin-bottom: 10px;
+}
+
+ .banner h2{
+   padding-top: 50px;
+   width: 450px;
+   text-align: left;
+   color: white;
+   font-family: 'Work Sans';
+   font-size: 35px;
+   font-weight: 600px;
+   margin-bottom: 10px;
+ }
+
+ .banner{
+   border-radius: 5px;
+   padding-left: 50px;
+   margin-bottom: 90px;
+   background-image: url('/sources/gradient2.png'),url('/sources/watch.png');
+   background-repeat: no-repeat;
+   margin-left: 13%;
+   margin-right: 13%;
+   background-size: cover;
+   height: 250px;
+ }
